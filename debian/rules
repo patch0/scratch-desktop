@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+export DH_VERBOSE = 1
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@ --with nodejs
+
+override_dh_auto_configure:
+	npm install
+
+override_dh_auto_test:
+	true
+
+clean:
+	dh clean --with nodejs
+	npm run clean
+	$(RM) -r node_modules/ translations/messages/node_modules/
+

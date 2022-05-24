@@ -1,0 +1,77 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: scratch-desktop
+Upstream-Contact: help@scratch.mit.edu 
+Source: <https://github.com/LLK/scratch-desktop>
+Files:     .circleci/config.yml
+           .editorconfig
+           .eslintignore
+           .eslintrc.js
+           .gitattributes
+           .github/CONTRIBUTING.md
+           .github/ISSUE_TEMPLATE.md
+           .github/PULL_REQUEST_TEMPLATE.md
+           .gitignore
+           .npmignore
+           README.md
+           TRADEMARK
+           buildResources/.gitignore
+           buildResources/ScratchDesktop.icns
+           buildResources/ScratchDesktop.ico
+           buildResources/appx/Square150x150Logo.png
+           buildResources/appx/Square44x44Logo.png
+           buildResources/appx/StoreLogo.png
+           buildResources/appx/Wide310x150Logo.png
+           buildResources/make-icons.sh
+           buildResources/screenshot.png
+           electron-builder.yaml
+           electron-webpack.json5
+           fastlane/Appfile
+           fastlane/Fastfile
+           fastlane/README-match.md
+           fastlane/README.md
+           package-lock.json
+           package.json
+           scripts/.eslintrc.js
+           scripts/afterSign.js
+           scripts/electron-builder-wrapper.js
+           scripts/fetchMediaLibraryAssets.js
+           scripts/lib/libraries.js
+           src/.eslintrc.js
+           src/common/ElectronStorageHelper.js
+           src/common/log.js
+           src/icon/ScratchDesktop.png
+           src/main/.eslintrc.js
+           src/main/FileFilters.js
+           src/main/MacOSMenu.js
+           src/main/ScratchDesktopTelemetry.js
+           src/main/argv.js
+           src/main/index.js
+           src/main/telemetry/TelemetryClient.js
+           src/renderer/.eslintrc.js
+           src/renderer/ScratchDesktopAppStateHOC.jsx
+           src/renderer/ScratchDesktopGUIHOC.jsx
+           src/renderer/about.css
+           src/renderer/about.jsx
+           src/renderer/app.css
+           src/renderer/app.jsx
+           src/renderer/index.js
+           src/renderer/privacy.css
+           src/renderer/privacy.jsx
+           src/renderer/showPrivacyPolicy.js
+           webpack.main.js
+           webpack.makeConfig.js
+           webpack.renderer.js
+Copyright: Copyright (c) 2019, Scratch Foundation
+License:   BSD-3-Clause
+ Copyright (c) 2019, Scratch Foundation
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
