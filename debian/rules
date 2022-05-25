@@ -8,11 +8,12 @@ export DH_VERBOSE = 1
 %:
 	dh $@ --with nodejs
 
-override_dh_auto_configure:
-	npm install
-
 override_dh_auto_test:
 	true
+
+build:
+	npm install
+	npm run build:dist
 
 clean:
 	dh clean --with nodejs

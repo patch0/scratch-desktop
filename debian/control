@@ -1,8 +1,8 @@
 Source: scratch-desktop
-Section: Web 
+Section: Web
 Priority: optional
 Maintainer: Patrick J Cherry <patrick.cherry@raspberrypi.org>
-Build-Depends: debhelper-compat (= 13), pkg-js-tools
+Build-Depends: debhelper-compat (= 13), pkg-js-tools, npm, libxshmfence1, libnss3, libatk1.0-0, libatk-bridge2.0-0, libdrm2, libgtk-3-0, libgbm1, libasound2
 Standards-Version: 4.5.1
 Homepage: https://scratch.mit.edu
 Rules-Requires-Root: no

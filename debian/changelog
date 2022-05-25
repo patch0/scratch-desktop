@@ -1,6 +1,5 @@
-scratch-desktop (3.29.1-1) UNRELEASED; urgency=low
+scratch-desktop (3.29.1-1) stable; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial release.
 
- -- Patrick J Cherry <>  Tue, 24 May 2022 21:27:38 +0100
+ -- Patrick J Cherry <patrick.cherry@raspberrypi.org>  Tue, 24 May 2022 21:27:38 +0100
